@@ -4,7 +4,7 @@ import time
 import sys
 
 if (len(sys.argv) < 2):
-	print("missing arguments")
+	print("Please supply a table name")
 	sys.exit(1)
 
 table = sys.argv[1]
